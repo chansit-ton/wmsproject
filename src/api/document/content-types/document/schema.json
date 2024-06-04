@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "documents",
+  "info": {
+    "singularName": "document",
+    "pluralName": "documents",
+    "displayName": "document",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ifpdoc": {
+      "type": "uid"
+    },
+    "ifpcode": {
+      "type": "string"
+    },
+    "Status": {
+      "type": "enumeration",
+      "enum": [
+        "Arrived",
+        "Allocate",
+        "Putaway",
+        "Collected",
+        "Request",
+        "Send"
+      ]
+    }
+  }
+}

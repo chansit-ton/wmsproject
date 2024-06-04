@@ -1,0 +1,96 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sk_uses",
+  "info": {
+    "singularName": "sk-us",
+    "pluralName": "sk-uses",
+    "displayName": "SKUs",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Skuid": {
+      "type": "uid",
+      "required": true
+    },
+    "Internalcode": {
+      "type": "string"
+    },
+    "Name": {
+      "type": "string"
+    },
+    "AccountId": {
+      "type": "string"
+    },
+    "Code": {
+      "type": "string"
+    },
+    "Barcode": {
+      "type": "text"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "width": {
+      "type": "decimal"
+    },
+    "height": {
+      "type": "decimal"
+    },
+    "length": {
+      "type": "decimal"
+    },
+    "weight": {
+      "type": "decimal"
+    },
+    "cost": {
+      "type": "float"
+    },
+    "price": {
+      "type": "float"
+    },
+    "qc": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "qcunitprice": {
+      "type": "decimal"
+    },
+    "unittype": {
+      "type": "string"
+    },
+    "propertiesJson": {
+      "type": "json"
+    },
+    "active": {
+      "type": "boolean"
+    },
+    "qclevel": {
+      "type": "integer"
+    },
+    "Maincolor": {
+      "type": "string"
+    },
+    "categorycode": {
+      "type": "string"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Image2": {
+      "type": "json"
+    }
+  }
+}

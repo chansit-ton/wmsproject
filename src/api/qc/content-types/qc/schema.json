@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "qcs",
+  "info": {
+    "singularName": "qc",
+    "pluralName": "qcs",
+    "displayName": "QC",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "qccode": {
+      "type": "uid"
+    },
+    "level": {
+      "type": "integer"
+    },
+    "description": {
+      "type": "text"
+    },
+    "timeperunit": {
+      "type": "decimal"
+    },
+    "name": {
+      "type": "string"
+    },
+    "sk_uses": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::sk-us.sk-us"
+    }
+  }
+}
